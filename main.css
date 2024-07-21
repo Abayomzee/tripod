@@ -6,7 +6,7 @@
   --color-bg: #0d0d15;
 
   --color-1: #1e90ff;
-  --color-2: #1e8fff1f;
+  --color-2: #be686850;
 }
 /* variables end ================== */
 
@@ -114,8 +114,9 @@ body {
   padding: 3rem;
 
   background-color: var(--color-2);
+  background-color: var(--color-2);
   border-radius: 1rem;
-  border: 0.5px solid rgba(255, 255, 255, 0.28);
+  border: 0.5px solid rgba(60, 60, 60, 0.28);
 
   margin-bottom: 5rem;
 }
