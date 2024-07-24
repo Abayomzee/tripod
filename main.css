@@ -260,9 +260,9 @@ nav {
 }
 
 .p3 {
-  font-size: clamp(1.5rem, 4vw, 2.2rem);
+  font-size: clamp(1.5rem, 4vw, 2rem);
 
-  font-weight: 400;
+  font-weight: 300;
   line-height: 2.6rem;
   color: #ffffff;
   font-family: "Poppins", sans-serif;
