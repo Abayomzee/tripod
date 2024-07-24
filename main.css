@@ -21,8 +21,9 @@
 }
 
 html {
-  font-family: "Irish Grover", system-ui;
-  font-family: dirty-dog;
+  /* font-family: "Irish Grover", system-ui; */
+  font-family: "Oxanium", sans-serif;
+
   font-weight: 400;
   font-style: normal;
   font-size: 62.5%;
@@ -199,9 +200,10 @@ nav {
 
 /* Headings */
 .h1 {
-  font-family: "Inknut Antiqua", serif;
+  /* font-family: "Inknut Antiqua", serif; */
+  /* font-family: "Oxanium", sans-serif; */
   font-size: clamp(2.5rem, 4vw, 4.8rem);
-  font-weight: 300;
+  font-weight: 700;
   line-height: 2.6rem;
   color: var(--color-white);
   position: relative;
@@ -225,17 +227,18 @@ nav {
   font-weight: 500;
   line-height: 2.6rem;
   color: var(--color-white);
-  font-family: "Poppins", sans-serif;
+  /* font-family: "Poppins", sans-serif; */
   letter-spacing: 0.9px;
   word-break: break-all;
 }
 
 .h3 {
-  font-family: "Poppins", sans-serif;
+  /* font-family: "Poppins", sans-serif;
   font-family: "Inknut Antiqua", serif;
+   font-family: "Oxanium", sans-serif; */
   font-size: 2.6rem;
   font-size: clamp(2rem, 4vw, 3rem);
-  font-weight: 400;
+  font-weight: 500;
   line-height: 2.6rem;
   color: var(--color-white);
 }
@@ -246,7 +249,7 @@ nav {
   font-weight: 300;
   line-height: 2.6rem;
   color: var(--color-white);
-  font-family: "Jost", sans-serif;
+  /* font-family: "Jost", sans-serif; */
 }
 
 .p2 {
@@ -256,7 +259,7 @@ nav {
   font-weight: 400;
   line-height: 2.6rem;
   color: #ffffffc5;
-  font-family: "Poppins", sans-serif;
+  /* font-family: "Poppins", sans-serif; */
 }
 
 .p3 {
@@ -265,14 +268,14 @@ nav {
   font-weight: 300;
   line-height: 2.6rem;
   color: #ffffff;
-  font-family: "Poppins", sans-serif;
+  /* font-family: "Poppins", sans-serif; */
 }
 
 /* links */
 .l1 {
   all: unset;
   cursor: pointer;
-  font-family: "Poppins", sans-serif;
+  /* font-family: "Poppins", sans-serif; */
   font-size: 1.4rem;
   font-weight: 500;
   line-height: 2.6rem;
@@ -288,7 +291,7 @@ nav {
 
 @media only screen and (max-width: 1100px) {
   .l1 {
-    font-family: "Poppins", sans-serif;
+    /* font-family: "Poppins", sans-serif; */
     font-size: 1.2rem;
     font-weight: 400;
     padding: 0.2rem 1.3rem;
