@@ -38,13 +38,18 @@
         </nav>
 
         <div class="hero-img center">
+          <div class="hero-image-container">
+            <img src="./assets/tripod-new.jpg" alt="" />
+          </div>
+          <p class="p3 text-center mt10 max-width-600">
+            Tripod is Solanas first 3 legged doggo. He’s forever looking for the
+            next leg up!
+          </p>
           <h4 class="h2 text-center">
             CA: **************************************
             <!-- CA: 8FtxPaWTFyPY4RwUcj2BjtwRGx5LZam4krVqEFsBCHp -->
           </h4>
-          <div class="hero-image-container">
-            <img src="./assets/tripod-new.jpg" alt="" />
-          </div>
+          <button onclick="copyCa()" class="l1">Click to copy CA</button>
         </div>
       </header>
 
@@ -67,5 +72,14 @@
         </div>
       </section>
     </main>
+
+    <script>
+      function copyCa() {
+        navigator.clipboard.writeText("**************************************");
+
+        // Alert the copied text
+        alert("CA Copied");
+      }
+    </script>
   </body>
 </html>
