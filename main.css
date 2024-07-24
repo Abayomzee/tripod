@@ -53,6 +53,12 @@ body {
   overflow-y: auto;
 }
 
+nav {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+
 .nav {
   display: flex;
   align-items: center;
@@ -62,6 +68,10 @@ body {
 }
 
 @media only screen and (max-width: 600px) {
+  nav {
+    position: relative;
+    top: auto;
+  }
   .nav {
     flex-wrap: wrap;
     /* gap: 10rem; */
