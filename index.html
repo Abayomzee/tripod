@@ -49,7 +49,9 @@
             CA: **************************************
             <!-- CA: 8FtxPaWTFyPY4RwUcj2BjtwRGx5LZam4krVqEFsBCHp -->
           </h4>
-          <button onclick="copyCa()" class="l1">Click to copy CA</button>
+          <!-- <button onclick="copyCa()" class="l1" id="ca-cta">
+            Click to copy CA
+          </button> -->
         </div>
       </header>
 
@@ -78,11 +80,13 @@
     </main>
 
     <script>
-      function copyCa() {
-        navigator.clipboard.writeText("**************************************");
+      async function copyCa() {
+        await navigator.clipboard.writeText(
+          "**************************************"
+        );
 
-        // Alert the copied text
-        alert("CA Copied");
+        const menubtn = document.querySelector("#ca-cta");
+        menubtn.innerHTML = "Copied";
       }
     </script>
   </body>
