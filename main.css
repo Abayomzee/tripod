@@ -163,6 +163,20 @@ nav {
   }
 }
 
+@media only screen and (max-width: 600px) {
+  .slide {
+    flex-basis: 20rem;
+    max-height: 15rem;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .slide {
+    flex-basis: 15rem;
+    max-height: 10rem;
+  }
+}
+
 /* app style end ================== */
 
 /* Utilities */
