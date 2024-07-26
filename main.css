@@ -48,7 +48,6 @@ body {
     url("./assets/tripod-bg.jpg");
   background-position: center center;
   /* background-size: contain; */
-  background-color: red;
 
   /* background-attachment: fixed; */
   overflow-y: auto;
