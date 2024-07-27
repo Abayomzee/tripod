@@ -132,6 +132,12 @@ nav {
   margin-bottom: 5rem;
 }
 
+.roadmap-container {
+  img {
+    width: 100%;
+  }
+}
+
 .slide-container {
   overflow-x: auto;
 }
