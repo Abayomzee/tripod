@@ -7,6 +7,11 @@
 
   --color-1: #1e90ff;
   --color-2: #be686850;
+
+  --color-3: #e9176b;
+  --color-4: #8175b6;
+  --color-5: #6dbc58;
+  --color-6: #f9e006;
 }
 /* variables end ================== */
 
@@ -44,13 +49,9 @@ body {
 /* ========== top nav ========== */
 .main {
   height: 100vh;
-  background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),
-    url("./assets/tripod-bg.jpg");
-  background-position: center center;
-  /* background-size: contain; */
-
-  /* background-attachment: fixed; */
+  background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55));
   overflow-y: auto;
+  background-color: var(--color-5);
 }
 
 nav {
@@ -105,8 +106,8 @@ nav {
 }
 
 .hero-image-container {
-  max-width: 62rem;
-  max-width: 52.7rem;
+  max-width: 57rem;
+  max-width: 47.7rem;
   object-fit: cover;
 
   img {
@@ -124,8 +125,7 @@ nav {
   gap: 2rem;
   padding: 3rem;
 
-  background-color: var(--color-2);
-  background-color: var(--color-2);
+  background-color: #6ebc584e;
   border-radius: 1rem;
   border: 0.5px solid rgba(60, 60, 60, 0.28);
 
@@ -261,8 +261,7 @@ nav {
 
 /* Headings */
 .h1 {
-  /* font-family: "Inknut Antiqua", serif; */
-  /* font-family: "Oxanium", sans-serif; */
+  font-family: "Freckle Face", system-ui;
   font-size: clamp(2.5rem, 4vw, 4.8rem);
   font-weight: 700;
   line-height: 2.6rem;
@@ -272,7 +271,8 @@ nav {
 
 .h1::after {
   position: absolute;
-  content: url("./assets/strike.png");
+  /* content: url("./assets/strike.png"); */
+  /* content: url("🚀"); */
   top: 140%;
   right: -20%;
 }
@@ -294,9 +294,7 @@ nav {
 }
 
 .h3 {
-  /* font-family: "Poppins", sans-serif;
-  font-family: "Inknut Antiqua", serif;
-   font-family: "Oxanium", sans-serif; */
+  font-family: "Freckle Face", system-ui;
   font-size: 2.6rem;
   font-size: clamp(2rem, 4vw, 3rem);
   font-weight: 500;
@@ -341,13 +339,22 @@ nav {
   font-weight: 500;
   line-height: 2.6rem;
   text-decoration: none;
-  color: var(--color-white);
+  color: var(--color-6);
 
-  border: 0.5px solid #ffffff;
+  border: 0.5px solid var(--color-4);
   padding: 0.4rem 2rem;
   border-radius: 2.8rem;
   transition: 0.4s;
   letter-spacing: 0.6px;
+
+  &.xx {
+    font-family: "Freckle Face", system-ui;
+    font-size: 1.6rem;
+  }
+}
+
+.l1-more {
+  box-shadow: 0 0 3rem 1rem #f9e1066b;
 }
 
 @media only screen and (max-width: 1100px) {
