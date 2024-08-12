@@ -94,6 +94,12 @@ nav {
   background-color: var(--color-2);
 }
 
+@media only screen and (max-width: 600px) {
+  .nav-container {
+    padding: 1rem 2rem;
+  }
+}
+
 .links {
   display: flex;
   align-items: center;
@@ -402,10 +408,6 @@ footer {
 /* ****** */
 
 @media only screen and (max-width: 600px) {
-  nav {
-    position: relative;
-    top: auto;
-  }
   .nav {
     flex-wrap: wrap;
     /* gap: 10rem; */
