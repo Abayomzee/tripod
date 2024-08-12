@@ -536,7 +536,16 @@ footer {
   color: var(--color-2);
   font-size: 10rem;
   font-size: clamp(5rem, 9vw, 10rem);
-  margin-left: -0.5rem;
+  text-shadow: 0 4px 2px rgb(32, 32, 32);
+}
+
+.h7 {
+  font-family: "Freckle Face", system-ui;
+  font-weight: 800;
+  color: var(--color-2);
+  font-size: 5rem;
+  font-size: clamp(2rem, 9vw, 3rem);
+  margin-left: -1.3rem;
   text-shadow: 0 4px 2px rgb(32, 32, 32);
 }
 
