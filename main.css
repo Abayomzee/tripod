@@ -131,6 +131,12 @@ nav {
   box-shadow: 0 0.1rem 0 rgb(0, 0, 0);
 }
 
+@media only screen and (max-width: 550px) {
+  .hide-on-mobile {
+    display: none;
+  }
+}
+
 .hero {
   display: flex;
   align-items: center;
@@ -140,8 +146,8 @@ nav {
 }
 
 .hero-img-container {
-  height: 480px;
-  width: 401px;
+  max-height: 480px;
+  max-width: 401px;
   position: relative;
 
   img {
@@ -260,6 +266,7 @@ nav {
   color: white;
   font-family: inherit;
   font-weight: 600;
+  cursor: pointer;
 }
 
 .memes_section {
@@ -528,6 +535,7 @@ footer {
   font-size: 2rem;
   color: var(--color-white);
   font-weight: 700;
+  word-break: break-all;
 }
 
 /* links */

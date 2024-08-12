@@ -39,9 +39,9 @@
         <div class="center nav-container">
           <h3 class="h1">$ Nigga <sup class="h2">3</sup></h3>
           <div class="links">
-            <a href="#" class="l1">About</a>
-            <a href="#memes" class="l1">Meme</a>
-            <a href="#nigga-nomics" class="l1">Nigga-nomics</a>
+            <a href="#" class="l1 hide-on-mobile">About</a>
+            <a href="#memes" class="l1 hide-on-mobile">Meme</a>
+            <a href="#nigga-nomics" class="l1 hide-on-mobile">Nigga-nomics</a>
             <a href="#ca" class="l1">CA</a>
 
             <div class="data-links">
@@ -533,7 +533,7 @@
               CA: ***********************************************************
             </p>
           </div>
-          <button class="ca-btn">Copy CA</button>
+          <button class="ca-btn" id="ca-cta" onclick="copyCa()">Copy CA</button>
         </div>
       </section>
 
@@ -604,9 +604,7 @@
 
     <script>
       async function copyCa() {
-        await navigator.clipboard.writeText(
-          "5j7gymnaapxtdcjfgqqef8treun3zhgp1go5mjzcvtcm"
-        );
+        await navigator.clipboard.writeText("Nigga on sol CA COMING SOON");
 
         const menubtn = document.querySelector("#ca-cta");
         menubtn.innerHTML = "Copied";
