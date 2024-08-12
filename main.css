@@ -511,6 +511,7 @@ footer {
   font-family: "Freckle Face", system-ui;
   color: var(--color-white);
   font-size: 6rem;
+  font-size: clamp(3.5rem, 5vw, 6rem);
   text-shadow: 2px 2px var(--color-black);
   transform: rotate(-8deg);
 }
