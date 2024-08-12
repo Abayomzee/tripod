@@ -63,9 +63,14 @@ body {
 /* ========== top nav ========== */
 .main {
   height: 100vh;
-  background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55));
+  background: linear-gradient(
+      rgba(5, 32, 79, 0.903),
+      rgba(9, 13, 138, 0.915)
+    ),
+    url("./assets/fax-cat.webp");
   overflow-y: auto;
   background-color: var(--color-5);
+  background-repeat: repeat;
 }
 
 nav {
@@ -180,9 +185,9 @@ nav {
   gap: 2rem;
   padding: 3rem;
 
-  background-color: #6ebc584e;
+  background-color: #db3737;
   border-radius: 1rem;
-  border: 0.5px solid rgba(60, 60, 60, 0.28);
+  border: 0.5px solid rgba(60, 60, 60, 0.67);
 
   margin-bottom: 5rem;
 }
@@ -394,7 +399,8 @@ nav {
   font-weight: 500;
   line-height: 2.6rem;
   text-decoration: none;
-  color: var(--color-6);
+  /* color: var(--color-6); */
+  color: #ffffff;
 
   border: 0.5px solid var(--color-4);
   padding: 0.4rem 2rem;
