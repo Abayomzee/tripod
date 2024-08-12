@@ -182,6 +182,19 @@ nav {
   right: 10rem;
 } */
 
+.splash-container {
+  position: absolute;
+  top: 0;
+  left: 20rem;
+  max-width: 30.5rem;
+  max-width: 33.9rem;
+
+  img {
+    width: 100%;
+    height: 100%;
+  }
+}
+
 .slider_sec-1 {
   border-block: 2px solid var(--color-2);
   padding-block: 2rem;
