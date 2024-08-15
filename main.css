@@ -189,6 +189,7 @@ nav {
   left: 20rem;
   max-width: 30.5rem;
   max-width: 33.9rem;
+  z-index: -1;
 
   img {
     width: 100%;
