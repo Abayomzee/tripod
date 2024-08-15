@@ -286,14 +286,14 @@ nav {
 }
 
 .ca-btn {
-  background-color: #664946;
+  background-color: #0a5713;
   padding: 1rem 3rem;
 
   border-radius: 2rem;
 
-  border-left: 0.3rem solid black;
-  border-bottom: 0.5rem solid black;
-  border-right: 0.3rem solid black;
+  border-left: 0.1rem solid #fc9ade;
+  border-bottom: 0.5rem solid #fc9ade;
+  border-right: 0.1rem solid #fc9ade;
   color: white;
   font-family: inherit;
   font-weight: 600;
