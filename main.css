@@ -3,7 +3,7 @@
 :root {
   --color-white: #ffffff;
   --color-black: #000000;
-  --color-bg: #abf7fe;
+  --color-bg: #140c41;
 
   --color-1: #664946;
   --color-2: #fc5a17;
@@ -87,11 +87,12 @@ nav {
   justify-content: space-between;
 
   padding: 1rem 4rem;
-  border-left: 0.3rem solid black;
-  border-bottom: 0.5rem solid black;
-  border-right: 0.3rem solid black;
+  border-left: 0.3rem solid #61ce6d;
+  border-bottom: 0.5rem solid #61ce6d;
+  border-right: 0.3rem solid #61ce6d;
   border-radius: 3rem;
-  background-color: var(--color-2);
+  /* background-color: var(--color-2); */
+  background-color: #fb9ade;
 }
 
 @media only screen and (max-width: 600px) {
@@ -159,7 +160,7 @@ nav {
   img {
     width: 100%;
     height: 100%;
-    mix-blend-mode: hard-light;
+    /* mix-blend-mode: hard-light; */
   }
 }
 
@@ -196,10 +197,10 @@ nav {
 }
 
 .slider_sec-1 {
-  border-block: 2px solid var(--color-2);
+  border-block: 2px solid #54bc69;
   padding-block: 2rem;
-  background-color: #664946;
-  transform: rotate(3deg);
+  background-color: #ebbff8;
+  transform: rotate(-3deg);
   /* 
   background: linear-gradient(rgba(235, 9, 9, 0.896), rgba(0, 0, 0, 0.4)),
     url("./assets/rough-bg.jpg"); */
@@ -210,10 +211,10 @@ nav {
   gap: 3rem;
 }
 .slider_sec-2 {
-  border-block: 2px solid black;
+  border-block: 2px solid #54bc69;
   padding-block: 2rem;
-  background-color: #664946;
-  transform: rotate(-6deg);
+  background-color: #ebbff8;
+  /* transform: rotate(-6deg); */
 }
 .slider-2 {
   display: flex;
@@ -221,12 +222,17 @@ nav {
   gap: 3rem;
 }
 
+.slider-img {
+  max-width: 5rem;
+  max-height: 5rem;
+}
+
 .nigga-nomic__section {
   padding-top: 10rem;
 }
 
 .nigga-nomics {
-  background-color: #ce450b;
+  background-color: #fb9ade;
   padding-block: 6rem;
   border-radius: 2rem;
   position: relative;
@@ -268,14 +274,14 @@ nav {
 }
 
 .ca {
-  background-color: #664946;
+  background-color: #fc9ade;
   padding: 1rem 3rem;
 
   border-radius: 2rem;
 
-  border-left: 0.3rem solid black;
-  border-bottom: 0.5rem solid black;
-  border-right: 0.3rem solid black;
+  border-left: 0.3rem solid #61ce6d;
+  border-bottom: 0.5rem solid #61ce6d;
+  border-right: 0.3rem solid #61ce6d;
   flex-grow: 1;
 }
 
@@ -379,13 +385,13 @@ nav {
   position: fixed;
   bottom: 3rem;
   right: 10rem;
-  background-color: tomato;
+  background-color: #0a5713;
   padding: 1rem 3rem;
   border-radius: 3rem;
   text-decoration: none;
-  border-left: 0.1.2rem solid black;
-  border-bottom: 0.5rem solid black;
-  border-right: 0.1.2rem solid black;
+  border-left: 0.1.2rem solid #fc9ade;
+  border-bottom: 0.5rem solid #fc9ade;
+  border-right: 0.1.2rem solid #fc9ade;
 }
 
 .fixed-buy-button::after {
@@ -546,7 +552,8 @@ footer {
 .h6 {
   font-family: "Freckle Face", system-ui;
   font-weight: 800;
-  color: var(--color-2);
+  /* color: var(--color-white); */
+  color: #fb9ade;
   font-size: 10rem;
   font-size: clamp(5rem, 9vw, 10rem);
   text-shadow: 0 4px 2px rgb(32, 32, 32);
@@ -571,7 +578,7 @@ footer {
 
 .p2 {
   font-size: 1.5rem;
-  color: var(--color-black);
+  color: var(--color-white);
   font-weight: 500;
 }
 
@@ -641,4 +648,7 @@ footer {
 }
 .max-width-570 {
   max-width: 555px;
+}
+.max-width-200 {
+  max-width: 450px;
 }
